@@ -26,8 +26,8 @@ public class main {
             System.out.println();
         }
 
-        for (int i=0;i<height;i++){
-            for (int j=0;j<width;j++){
+        for (int i=1;i<height;i++){
+            for (int j=1;j<width;j++){
                 if (array[i][j] > array[x][y]){
                     x = i;
                     y = j;
